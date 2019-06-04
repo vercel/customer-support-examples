@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "next build",
-    "dev": "next",
+    "dev": "now dev",
     "now-build": "next build"
   },
   "dependencies": {
