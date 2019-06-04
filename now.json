@@ -1,6 +1,9 @@
 {
-	"version": 2,
-	"name": "customer-messaging-platform-integration-example",
-	"regions": ["sfo", "syd"],
-	"builds": [{ "src": "package.json", "use": "@now/next" }]
+  "version": 2,
+  "name": "customer-messaging-platform-integration-example",
+  "regions": ["sfo", "syd"],
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "env": {
+    "INTERCOM_ID": "@intercom-id"
+  }
 }
