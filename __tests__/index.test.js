@@ -2,22 +2,37 @@
 
 import { shallow } from 'enzyme'
 import React from 'react'
-import renderer from 'react-test-renderer'
 
-import App from '../pages/index.js'
+import Button from '../components/button'
 
-describe('With Enzyme', () => {
-  it('App shows "Hello world!"', () => {
-    const app = shallow(<App />)
+jest.setTimeout(30000)
+global.Intercom = jest.fn()
 
-    expect(app.find('h1').text()).toEqual('Chat with Us on Intercom')
+describe('The button', () => {
+  it('should load intercom when mouse hovers', () => {
+    let wrapper = shallow(<Button />)
+    wrapper.find('a').simulate('mouseenter')
+    expect(wrapper.find('span').prop('style')).toEqual({
+      display: 'none',
+    })
+    expect(wrapper.find('LoadableComponent')).toHaveLength(1)
   })
-})
 
-describe('With Snapshot Testing', () => {
-  it('App shows "Hello world!"', () => {
-    const component = renderer.create(<App />)
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+  it('should show loading status after click', () => {
+    let wrapper = shallow(<Button />)
+    wrapper.find('a').simulate('mouseenter')
+    wrapper.find('a').simulate('click')
+    expect(wrapper.find('a').hasClass('disabled'))
+    expect(wrapper.find('LoadableComponent')).toHaveLength(1)
+  })
+
+  it('should stop loading component after 5500', done => {
+    let wrapper = shallow(<Button />)
+    wrapper.find('a').simulate('click')
+    setTimeout(() => {
+      expect(wrapper.find('span')).toHaveLength(0)
+      expect(wrapper.find('a').hasClass('disabled')).toBeFalsy()
+      done()
+    }, 5500)
   })
 })
