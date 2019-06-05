@@ -5,18 +5,33 @@
 <a href="https://customer-messaging-platform-integration-example.zeit.sh">Checkout the demo</a>
 </div>
 
----
+
 
 ## Intro
 
-This repository demonstrates customer messaging platform implementation with [React Hooks](https://reactjs.org/docs/hooks-intro.html). We use [Intercom](https://www.intercom.com/) as the customer messaging platform in this example.
+This repository demonstrates integrating customer messaging platform to a [next.js](https://nextjs.org/) application with [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
 
-## Deploy
+In this example, we use [Intercom](https://www.intercom.com/) as the customer messaging platform.
 
-You can deploy VRS to our scalable serverless infrastructure free of cost.  
-Thanks to the on-demand pricing model, you don’t pay a cent for infrastructure during idle time.
+## Develop Locally
 
-Once you have [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download) installed, clone this repo, specify the necessary secrets with Now CLI, and run `now` — that’s it. The [deployment section](https://zeit.co/blog/serverless-ecommerce#deploying-and-infrastructure) on our blog post explains how you can specify the secrets.
+Once you have [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download) installed, clone this repo, and run `now dev` to start your journey. 
+
+To start testing, please run `yarn test`.
+
+
+## Deploy to Now
+
+Install [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download), specify secrets with Now CLI, and run `now` to deploy your application to [Now](https://zeit.co/now).
+
+Regarding information on environment variable and secrets, please check our [documentation] (https://zeit.co/docs/v2/development/environment-variables/)
+
+
+## Credits
+
+[react-intercom](https://github.com/nhagen/react-intercom)
+
+
 
 ## About
 
@@ -27,6 +42,5 @@ Follow us on [Twitter](https://twitter.com/zeithq).
 <br/>
 <br/>
 
-## Credits
+[![](https://assets.zeit.co/image/upload/v1556749970/repositories/vrs/zeit.svg)](https://zeit.co)
 
-[react-intercom](https://github.com/nhagen/react-intercom)
