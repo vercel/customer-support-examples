@@ -2,6 +2,7 @@
   "scripts": {
     "build": "next build",
     "dev": "now dev",
+    "test": "jest",
     "now-build": "next build"
   },
   "dependencies": {
@@ -10,5 +11,14 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-intercom": "^1.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "babel-jest": "24.1.0",
+    "enzyme": "3.4.3",
+    "enzyme-adapter-react-16": "1.2.0",
+    "jest": "24.1.0",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.4.2"
   }
 }
