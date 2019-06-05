@@ -6,7 +6,6 @@ const Button = () => {
     <div className="btn-wrapper">
       <a
         className={loading ? 'button disabled' : 'button'}
-        loading={loading}
         onMouseEnter={preload}
         onClick={show}
       >
