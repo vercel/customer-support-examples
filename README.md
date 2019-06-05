@@ -17,6 +17,7 @@ In this example, we use [Intercom](https://www.intercom.com/) as the customer me
 
 Once you have [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download) installed, clone this repo, and run `now dev` to start your journey. 
 
+
 To start testing, please run `yarn test`.
 
 
@@ -24,7 +25,7 @@ To start testing, please run `yarn test`.
 
 Install [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download), specify secrets with Now CLI, and run `now` to deploy your application to [Now](https://zeit.co/now).
 
-Regarding information on environment variable and secrets, please check our [documentation on evironment variable](https://zeit.co/docs/v2/deployments/environment-variables-and-secrets/)
+Regarding information on environment variable and secrets, please check our [documentation](https://zeit.co/docs/v2/deployments/environment-variables-and-secrets/) on evironment variables and secrets.
 
 
 ## Credits
