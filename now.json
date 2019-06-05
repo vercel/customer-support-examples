@@ -5,5 +5,10 @@
   "builds": [{ "src": "package.json", "use": "@now/next" }],
   "env": {
     "INTERCOM_ID": "@intercom-id"
+  },
+  "build": {
+    "env": {
+      "INTERCOM_ID": "@intercom-id"
+    }
   }
 }
