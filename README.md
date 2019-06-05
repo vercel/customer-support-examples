@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Customer Messaging Integration Example</h1>
+<h1>Customer Messaging Platform Integration Example</h1>
 <a href="https://zeit.co/blog">Read the blog post</a>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <a href="https://customer-messaging-platform-integration-example.zeit.sh">Checkout the demo</a>
@@ -9,7 +9,7 @@
 
 ## Intro
 
-This repository demonstrates customer messaging implementation with [React Hooks](https://reactjs.org/docs/hooks-intro.html). We use [Intercom](https://www.intercom.com/) as the customer messaging platform in this example.
+This repository demonstrates customer messaging platform implementation with [React Hooks](https://reactjs.org/docs/hooks-intro.html). We use [Intercom](https://www.intercom.com/) as the customer messaging platform in this example.
 
 ## Deploy
 
