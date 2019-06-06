@@ -9,7 +9,9 @@
   },
   "build": {
     "env": {
-      "INTERCOM_ID": "@intercom-id"
+      "INTERCOM_ID": "@intercom-id",
+      "DRIFT_ID": "@drift_id",
+      "ZENDESK_ID": "@zendesk_id"
     }
   }
 }

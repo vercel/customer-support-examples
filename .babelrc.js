@@ -1,5 +1,7 @@
 const env = {
   INTERCOM_ID: process.env.INTERCOM_ID || null,
+  DRIFT_ID: process.env.DRIFT_ID || null,
+  ZENDESK_ID: process.env.ZENDESK_ID || null,
 }
 
 module.exports = {
