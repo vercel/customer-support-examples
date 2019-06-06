@@ -2,15 +2,15 @@ import Link from 'next/link'
 import withApp from '../components/with-page'
 import Title from '../components/title'
 import Button from '../components/button'
-import DriftLogo from '../components/drift-logo'
+import ZendeskLogo from '../components/zendesk-logo'
 
-const Logo = <DriftLogo />
-function Drift() {
+const Logo = <ZendeskLogo />
+function Zendesk() {
   return (
     <main>
       <div className="container">
-        <Title appName="Drift" appLogo={Logo} />
-        <Button appName="drift" />
+        <Title appName="Zendesk" appLogo={Logo} />
+        <Button appName="zendesk" />
       </div>
       <style jsx>{`
         main {
@@ -26,4 +26,4 @@ function Drift() {
   )
 }
 
-export default withApp(Drift)
+export default withApp(Zendesk)
