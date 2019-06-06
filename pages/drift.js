@@ -2,13 +2,15 @@ import Link from 'next/link'
 import withApp from '../components/with-page'
 import Title from '../components/title'
 import Button from '../components/button'
+import DriftLogo from '../components/drift-logo'
 
+const Logo = <DriftLogo />
 function Index() {
   return (
     <main>
       <div className="container">
-        <Title />
-        <Button appName="intercom" />
+        <Title appName="Drift" appLogo={Logo} />
+        <Button appName="drift" />
       </div>
       <style jsx>{`
         main {

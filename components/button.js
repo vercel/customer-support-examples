@@ -1,7 +1,7 @@
 import LoadingDots from './loading-dots'
 import useTalkToUs from '../lib/use-talk-to-us'
-const Button = () => {
-  const { preload, show, loading, component } = useTalkToUs()
+const Button = ({ appName }) => {
+  const { preload, show, loading, component } = useTalkToUs(appName)
   return (
     <div className="btn-wrapper">
       <a

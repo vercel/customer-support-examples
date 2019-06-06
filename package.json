@@ -10,6 +10,7 @@
     "next": "^8.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-driftjs": "^1.1.6",
     "react-intercom": "^1.0.15"
   },
   "devDependencies": {
