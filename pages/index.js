@@ -8,7 +8,7 @@ function Index() {
     <main>
       <div className="container">
         <Title />
-        <Button />
+        <Button appName="intercom" />
       </div>
       <style jsx>{`
         main {
