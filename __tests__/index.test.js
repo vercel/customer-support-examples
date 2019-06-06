@@ -6,7 +6,6 @@ import React from 'react'
 import Button from '../components/button'
 
 jest.setTimeout(30000)
-global.Intercom = jest.fn()
 
 describe('The button', () => {
   it('should load intercom when mouse hovers', () => {
@@ -33,6 +32,6 @@ describe('The button', () => {
       expect(wrapper.find('span')).toHaveLength(0)
       expect(wrapper.find('a').hasClass('disabled')).toBeFalsy()
       done()
-    }, 5500)
+    }, 5501)
   })
 })
