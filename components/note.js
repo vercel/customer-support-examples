@@ -1,7 +1,8 @@
 const Note = ({ children, ...props }) => {
   return (
     <div className="note warning" {...props}>
-      Fallback: {children}
+      <b className="type">Warning: </b>
+      {children}
       <style jsx>{`
         .note {
           padding: 16px 24px;
