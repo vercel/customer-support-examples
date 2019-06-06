@@ -1,7 +1,7 @@
 const Note = ({ children, ...props }) => {
   return (
     <div className="note warning" {...props}>
-      <b className="type">Warning: </b>
+      <b className="type">Fallback: </b>
       {children}
       <style jsx>{`
         .note {
