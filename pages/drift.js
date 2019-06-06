@@ -1,10 +1,12 @@
 import Link from 'next/link'
+
 import withApp from '../components/with-page'
 import Title from '../components/title'
 import Button from '../components/button'
 import DriftLogo from '../components/drift-logo'
 
 const Logo = <DriftLogo />
+
 function Index() {
   return (
     <main>
