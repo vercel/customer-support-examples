@@ -1,8 +1,7 @@
 import { withRouter } from 'next/router'
 const ActiveLink = ({ children, router, href }) => {
   const className = router.pathname === href ? 'selected' : ''
-  const handleClick = e => {
-    e.preventDefault()
+  const handleClick = () => {
     router.push(href)
   }
 
