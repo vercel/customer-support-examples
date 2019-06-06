@@ -1,8 +1,10 @@
 import React from 'react'
+import Sidebar from './sidebar'
 
 const withPage = Comp => props => {
   return (
     <>
+      <Sidebar />
       <Comp {...props} />
       <style jsx global>
         {`
@@ -29,6 +31,7 @@ const withPage = Comp => props => {
           }
 
           a {
+            text-decoration: none;
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
           }
 
@@ -60,6 +63,12 @@ const withPage = Comp => props => {
           svg rect,
           svg line {
             shape-rendering: geometricprecision;
+          }
+
+          ul,
+          li {
+            list-style: none;
+            padding: 0;
           }
         `}
       </style>
