@@ -1,25 +1,21 @@
 <div align="center">
 <h1>Customer Messaging Platform Integration Example</h1>
-<a href="https://zeit.co/blog">Read the blog post</a>
+<a href="https://zeit.co/blog/support-experience-with-customer-messaging-platform-integration">Read the blog post</a>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <a href="https://customer-messaging-platform-integration-example.zeit.sh">Checkout the demo</a>
 </div>
-
-
 
 ## Intro
 
 This repository demonstrates integrating customer messaging platform to a [next.js](https://nextjs.org/) application with [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
 
-In this example, we use [Intercom](https://www.intercom.com/) as the customer messaging platform.
+In this repository contains three popular chat platforms as integration example, they are [Intercom](https://www.intercom.com/), [Drift](https://www.drift.com) and [Zendesk](https://www.zendesk.com/). 
 
 ## Develop Locally
 
 Once you have [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download) installed, clone this repo, and run `now dev` to start your journey. 
 
-
 To start testing, please run `yarn test`.
-
 
 ## Deploy to Now
 
@@ -27,11 +23,11 @@ Install [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/dow
 
 Regarding information on environment variable and secrets, please check our [documentation](https://zeit.co/docs/v2/deployments/environment-variables-and-secrets/) on evironment variables and secrets.
 
-
 ## Credits
 
 [react-intercom](https://github.com/nhagen/react-intercom)
 
+[react-driftjs](https://github.com/chardmd/react-drift)
 
 
 ## About
