@@ -9,7 +9,7 @@
 
 This repository demonstrates integrating customer messaging platform to a [next.js](https://nextjs.org/) application with [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
 
-In this repository contains three popular chat platforms as integration example, they are [Intercom](https://www.intercom.com/), [Drift](https://www.drift.com) and [Zendesk](https://www.zendesk.com/). 
+In this repository contains three popular chat platforms as examples, they are [Intercom](https://www.intercom.com/), [Drift](https://www.drift.com) and [Zendesk](https://www.zendesk.com/). 
 
 ## Develop Locally
 
