@@ -7,6 +7,7 @@ const Button = ({ appName }) => {
       <a
         className={loading ? 'button disabled' : 'button'}
         onMouseEnter={preload}
+        onTouchStart={preload}
         onClick={show}
       >
         {loading ? <LoadingDots /> : "Let's Start"}
