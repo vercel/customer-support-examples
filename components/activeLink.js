@@ -6,9 +6,11 @@ const ActiveLink = ({ children, router, href }) => {
   }
 
   return (
-    <a href={href} onClick={handleClick} className={className}>
-      {children}
-    </a>
+    <li onClick={handleClick}>
+      <a href={href} className={className}>
+        {children}
+      </a>
+    </li>
   )
 }
 
