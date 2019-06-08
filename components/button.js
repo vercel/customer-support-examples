@@ -2,13 +2,27 @@ import LoadingDots from './loading-dots'
 import useTalkToUs from '../lib/use-talk-to-us'
 const Button = ({ appName }) => {
   const { preload, show, loading, component } = useTalkToUs(appName)
+
+  const showOnMobile = () => {
+    preload()
+    setTimeout(() => {
+      show()
+    }, 100)
+  }
+  const showComp = () => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    if (isMobile) {
+      showOnMobile()
+    } else {
+      show()
+    }
+  }
   return (
     <div className="btn-wrapper">
       <a
         className={loading ? 'button disabled' : 'button'}
+        onClick={showComp}
         onMouseEnter={preload}
-        onTouchStart={preload}
-        onClick={show}
       >
         {loading ? <LoadingDots /> : "Let's Start"}
       </a>
