@@ -10,15 +10,9 @@ const Sidebar = () => {
     <div className={openMenu ? 'sidebar open' : 'sidebar'}>
       <ul>
         <h3>Chat Platforms</h3>
-        <li>
-          <ActiveLink href="/">Intercom</ActiveLink>
-        </li>
-        <li>
-          <ActiveLink href="/drift">Drift</ActiveLink>
-        </li>
-        <li>
-          <ActiveLink href="/zendesk">Zendesk</ActiveLink>
-        </li>
+        <ActiveLink href="/">Intercom</ActiveLink>
+        <ActiveLink href="/drift">Drift</ActiveLink>
+        <ActiveLink href="/zendesk">Zendesk</ActiveLink>
       </ul>
       <div className="hide-desktop" onClick={onHandleClick}>
         <MenuToggle expanded={openMenu} />
@@ -45,18 +39,18 @@ const Sidebar = () => {
             color: #888;
           }
 
-          .sidebar ul li {
+          .sidebar ul :global(li) {
             padding: 4px 10px 4px 30px;
             margin: 10px 0;
           }
 
-          .sidebar ul li :global(a) {
+          .sidebar ul :global(li a) {
             font-size: 14px;
             color: var(--black);
             box-sizing: border-box;
           }
 
-          .sidebar ul li :global(a.selected) {
+          .sidebar ul :global(li a.selected) {
             font-weight: 600;
             color: var(--black);
           }
@@ -88,7 +82,7 @@ const Sidebar = () => {
               display: block;
             }
 
-            .sidebar ul li {
+            .sidebar ul :global(li) {
               border-bottom: 1px solid #eee;
               padding: 20px 10px 20px 30px;
               margin: 0;
