@@ -1,12 +1,12 @@
 import Logo from './logo'
 import IntercomLogo from './intercom-logo'
-const Title = ({ appName = ' Intercom', appLogo = <IntercomLogo /> }) => (
+const Title = ({ appName = 'Intercom', appLogo = <IntercomLogo /> }) => (
   <div className="title">
     <div className="logos">
       <Logo /> <span>+</span> {appLogo}
     </div>
     <h1>
-      Chat with Us on &nbsp; <b>{appName}</b>
+      Chat with Us on&nbsp;<b>{appName}</b>
     </h1>
     <style jsx>{`
       .title {
