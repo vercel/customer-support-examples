@@ -9,13 +9,13 @@
 
 This repository demonstrates integrating different customer messaging platforms to a [Next.js](https://nextjs.org) application with [React Hooks](https://reactjs.org/docs/hooks-intro.html). We make sure of different fallbacks to make the experience accessible to different types of users.
 
-In this repository contains some popular chat platforms as examples, they are [Chatlio](https://chatlio.com/), [Crisp](https://crisp.chat), [Drift](https://www.drift.com),  [Intercom](https://www.intercom.com/) and [Zendesk](https://www.zendesk.com/). 
+The chat platforms included here are  [Intercom](https://www.intercom.com/), [Zendesk](https://www.zendesk.com/), [Drift](https://www.drift.com), [Chatlio](https://chatlio.com/), and [Crisp](https://crisp.chat).
 
 ## Develop Locally
 
 Once you have [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download) installed, clone this repo, and run `now dev` to start your journey. 
 
-To start testing, please run `yarn test`.
+To start testing, run `yarn test`.
 
 ## Deploy to Now
 
