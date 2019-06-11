@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Customer Messaging Platform Integration Example</h1>
-<a href="https://zeit.co/blog/support-experience-with-customer-messaging-platform-integration">Read the blog post</a>
+<a href="https://zeit.co/blog/real-time-customer-support">Read the blog post</a>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <a href="https://customer-messaging-platform-integration-example.zeit.sh">Checkout the demo</a>
 </div>
