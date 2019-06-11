@@ -10,10 +10,11 @@ const Sidebar = () => {
     <div className={openMenu ? 'sidebar open' : 'sidebar'}>
       <ul>
         <h3>Chat Platforms</h3>
-        <ActiveLink href="/">Intercom</ActiveLink>
-        <ActiveLink href="/drift">Drift</ActiveLink>
-        <ActiveLink href="/zendesk">Zendesk</ActiveLink>
         <ActiveLink href="/chatlio">Chatlio</ActiveLink>
+        <ActiveLink href="/crisp">Crisp</ActiveLink>
+        <ActiveLink href="/drift">Drift</ActiveLink>
+        <ActiveLink href="/">Intercom</ActiveLink>
+        <ActiveLink href="/zendesk">Zendesk</ActiveLink>
       </ul>
       <div className="hide-desktop" onClick={onHandleClick}>
         <MenuToggle expanded={openMenu} />
