@@ -16,6 +16,7 @@ const Sidebar = () => {
         <ActiveLink href="/">Intercom</ActiveLink>
         <ActiveLink href="/zendesk">Zendesk</ActiveLink>
       </ul>
+      <a href="https://zeit.co/blog/real-time-customer-support">Read the Blog Post →</a>
       <div className="hide-desktop" onClick={onHandleClick}>
         <MenuToggle expanded={openMenu} />
       </div>
@@ -28,6 +29,19 @@ const Sidebar = () => {
             height: 100vh;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            padding: 30px 0;
+          }
+
+          a {
+            margin-left: 30px;
+            font-size: 13px;
+            text-decoration: none;
+            color: #0076FF;
+          }
+
+          a:hover {
+            text-decoration :underline;
           }
 
           .sidebar ul h3 {
@@ -78,9 +92,16 @@ const Sidebar = () => {
               display: none;
             }
 
-            .sidebar.open ul {
+            .sidebar.open ul,
+            .sidebar.open a {
               display: block;
             }
+
+            a {
+              display: none;
+            }
+
+
 
             .sidebar ul :global(li) {
               border-bottom: 1px solid #eee;
