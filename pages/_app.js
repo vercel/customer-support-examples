@@ -1,5 +1,6 @@
 import App, { Container } from 'next/app'
 import React from 'react'
+import Router from 'next/router'
 
 export default class MyApp extends App {
   componentDidCatch(error, info) {

@@ -13,6 +13,7 @@ const Sidebar = () => {
         <ActiveLink href="/">Intercom</ActiveLink>
         <ActiveLink href="/drift">Drift</ActiveLink>
         <ActiveLink href="/zendesk">Zendesk</ActiveLink>
+        <ActiveLink href="/chatlio">Chatlio</ActiveLink>
       </ul>
       <div className="hide-desktop" onClick={onHandleClick}>
         <MenuToggle expanded={openMenu} />
