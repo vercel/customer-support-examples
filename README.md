@@ -1,15 +1,15 @@
 <div align="center">
-<h1>Real-time Customer Support Examples</h1>
+<h1>Real-time Customer Support Widget Examples</h1>
 <a href="https://zeit.co/blog/real-time-customer-support">Read the blog post</a>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<a href="https://customer-messaging-platform-integration-example.zeit.sh">Checkout the demo</a>
+<a href="https://customer-support.now.sh">Checkout the demo</a>
 </div>
 
 ## Intro
 
-This repository demonstrates integrating customer messaging platform to a [next.js](https://nextjs.org/) application with [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
+This repository demonstrates integrating different customer messaging platforms to a [Next.js](https://nextjs.org) application with [React Hooks](https://reactjs.org/docs/hooks-intro.html). We make sure of different fallbacks to make the experience accessible to different types of users.
 
-In this repository contains some popular chat platforms as examples, they are [Chatlio](https://chatlio.com/), [Crisp](https://crisp.chat),[Drift](https://www.drift.com),  [Intercom](https://www.intercom.com/) and [Zendesk](https://www.zendesk.com/). 
+In this repository contains some popular chat platforms as examples, they are [Chatlio](https://chatlio.com/), [Crisp](https://crisp.chat), [Drift](https://www.drift.com),  [Intercom](https://www.intercom.com/) and [Zendesk](https://www.zendesk.com/). 
 
 ## Develop Locally
 
@@ -21,13 +21,12 @@ To start testing, please run `yarn test`.
 
 Install [Now CLI](https://zeit.co/download) or [Now Desktop](https://zeit.co/download), specify secrets with Now CLI, and run `now` to deploy your application to [Now](https://zeit.co/now).
 
-Regarding information on environment variable and secrets, please check our [documentation](https://zeit.co/docs/v2/deployments/environment-variables-and-secrets/) on evironment variables and secrets.
+For information on environment variables and secrets, check out our [documentation](https://zeit.co/docs/v2/deployments/environment-variables-and-secrets/).
 
 ## Credits
 
-[react-intercom](https://github.com/nhagen/react-intercom)
-
-[react-driftjs](https://github.com/chardmd/react-drift)
+* [react-intercom](https://github.com/nhagen/react-intercom)
+* [react-driftjs](https://github.com/chardmd/react-drift)
 
 
 ## About
