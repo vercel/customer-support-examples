@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "customer-messaging-platform-integration-example",
+  "name": "customer-support",
   "alias": ["customer-support.now.sh", "customer-messaging-platform-integration-example.now.sh"],
   "regions": ["sfo", "syd"],
   "builds": [{ "src": "package.json", "use": "@now/next" }],
