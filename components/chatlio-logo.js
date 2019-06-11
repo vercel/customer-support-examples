@@ -1,7 +1,7 @@
 const ChatlioLogo = () => (
   <svg
-    width="87"
-    height="30"
+    width="145"
+    height="50"
     viewBox=" 0 0 87 30"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
