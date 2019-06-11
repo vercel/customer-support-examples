@@ -5,7 +5,10 @@ const withPage = Comp => props => {
   return (
     <>
       <Sidebar />
-      <Comp {...props} />
+      <div className="wrapper">
+        <Comp {...props} />
+      </div>
+
       <style jsx global>
         {`
           :root {
@@ -69,6 +72,25 @@ const withPage = Comp => props => {
           li {
             list-style: none;
             padding: 0;
+          }
+        `}
+      </style>
+
+      <style jsx>
+        {`
+          .wrapper {
+            margin-left: 270px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+
+          @media (max-width: 768px) {
+            .wrapper {
+              margin: 0;
+            }
           }
         `}
       </style>

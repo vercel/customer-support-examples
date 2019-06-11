@@ -10,16 +10,6 @@ function Index() {
         <Title />
         <Button appName="intercom" />
       </div>
-      <style jsx>{`
-        main {
-          display: flex;
-          height: 100vh;
-          width: 100vw;
-        }
-        .container {
-          margin: auto;
-        }
-      `}</style>
     </main>
   )
 }

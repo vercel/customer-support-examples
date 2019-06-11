@@ -32,7 +32,6 @@ const Button = ({ appName }) => {
           .btn-wrapper {
             width: 100%;
             max-width: 800px;
-            height: 180px;
             display: flex;
             flex-direction: column;
             align-items: center;

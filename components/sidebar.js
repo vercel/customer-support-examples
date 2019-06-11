@@ -26,10 +26,8 @@ const Sidebar = () => {
             position: fixed;
             width: 270px;
             height: 100vh;
-          }
-
-          .sidebar {
-            padding-top: 70px;
+            display: flex;
+            flex-direction: column;
           }
 
           .sidebar ul h3 {
@@ -53,7 +51,7 @@ const Sidebar = () => {
           }
 
           .sidebar ul :global(li a.selected) {
-            font-weight: 600;
+            font-weight: bold;
             color: var(--black);
           }
 
