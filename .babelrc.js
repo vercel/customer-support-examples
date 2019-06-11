@@ -3,6 +3,7 @@ const env = {
   DRIFT_ID: process.env.DRIFT_ID || null,
   ZENDESK_ID: process.env.ZENDESK_ID || null,
   CHATLIO_ID: process.env.CHATLIO_ID || null,
+  CRISP_ID: process.env.CRISP_ID || null,
 }
 
 module.exports = {

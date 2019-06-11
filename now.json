@@ -12,7 +12,8 @@
       "INTERCOM_ID": "@intercom-id",
       "DRIFT_ID": "@drift_id",
       "ZENDESK_ID": "@zendesk_id",
-      "CHATLIO_ID": "@chatlio_id"
+      "CHATLIO_ID": "@chatlio_id",
+      "CRISP_ID": "@crisp_id"
     }
   }
 }
